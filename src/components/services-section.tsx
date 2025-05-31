@@ -20,7 +20,7 @@ const ServiceCard = ({
       <img src={src} alt={title} class="w-full h-auto rounded-lg" />
       <A
         href={href}
-        class="font-pacifico text-[30px] font-normal text-[#281008] text-center"
+        class="font-pacifico text-[30px] font-normal text-[#281008] hover:text-primary text-center"
       >
         {title}
       </A>
