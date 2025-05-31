@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "./utils.css";
+
+body {
+  font-optical-sizing: auto;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Temporary Code */
+  /* background-color: black; */
+}
+
+@theme {
+  --default-font-family: "Inter", sans-serif;
+  --font-pacifico: "Pacifico", cursive;
+  --default-font-size: 16px;
+  --default-font-weight: 400;
+  --color-primary: #fe2833;
+  --color-dark: #131212;
+  --color-dark-1: #331212;
+}

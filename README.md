@@ -30,5 +30,22 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 ## Deployment
+### Install Cloudflare Wrangler
+```bash
+pnpm install -g wrangler
+```
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+### Login to Cloudflare
+```bash
+wrangler login
+```
+### Build the project
+```bash
+pnpm run build
+```
+### Publish to Cloudflare Workers
+```bash
+wrangler pages deploy dist
+```
+### Publish to Cloudflare Pages
+```bash
